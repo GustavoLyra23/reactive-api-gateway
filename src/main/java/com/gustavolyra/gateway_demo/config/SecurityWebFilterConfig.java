@@ -31,7 +31,7 @@ public class SecurityWebFilterConfig {
     @Bean
     public AuthenticationWebFilter jwtWebFilter(JwtAuthenticationManager jwtAuthManager) {
         AuthenticationWebFilter filter = new AuthenticationWebFilter(jwtAuthManager);
-        filter.setServerAuthenticationConverter(new com.gustavolyra.twiter_copy.config.JwtServerAuthenticationConverter());
+        filter.setServerAuthenticationConverter(new JwtServerAuthenticationConverter());
         return filter;
     }
 

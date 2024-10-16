@@ -1,4 +1,4 @@
-package com.gustavolyra.twiter_copy.config;
+package com.gustavolyra.gateway_demo.config;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
